@@ -23,5 +23,10 @@ namespace agenda_de_contatos.Models
         [Required]
         [MaxLength(20)]
         public string Password { get; set; }
+
+        [ForeignKey("Address")]
+        public int AddressId { get; set; }
+
+        public Address Address { get; set; }
     }
 }

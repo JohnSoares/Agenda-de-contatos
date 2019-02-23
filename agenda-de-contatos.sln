@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "agenda-de-contatos", "agend
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "agenda-de-contatos.Tests", "agenda-de-contatos.Tests\agenda-de-contatos.Tests.csproj", "{43268AF2-04C6-4D9A-A658-1E2D28A4B99D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "agenda-de-contatos.Domain", "agenda-de-contatos.Domain\agenda-de-contatos.Domain.csproj", "{D7E2136A-B606-410D-9184-362B14AB877D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "agenda-de-contatos.Data", "agenda-de-contatos.Data\agenda-de-contatos.Data.csproj", "{BBAEA90A-368D-4406-80D1-1BCB3276F20C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{43268AF2-04C6-4D9A-A658-1E2D28A4B99D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43268AF2-04C6-4D9A-A658-1E2D28A4B99D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43268AF2-04C6-4D9A-A658-1E2D28A4B99D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7E2136A-B606-410D-9184-362B14AB877D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7E2136A-B606-410D-9184-362B14AB877D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7E2136A-B606-410D-9184-362B14AB877D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7E2136A-B606-410D-9184-362B14AB877D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBAEA90A-368D-4406-80D1-1BCB3276F20C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBAEA90A-368D-4406-80D1-1BCB3276F20C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBAEA90A-368D-4406-80D1-1BCB3276F20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBAEA90A-368D-4406-80D1-1BCB3276F20C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

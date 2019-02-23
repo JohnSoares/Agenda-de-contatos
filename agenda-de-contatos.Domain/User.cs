@@ -5,7 +5,7 @@ using System.Web;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace agenda_de_contatos.Models
+namespace agenda_de_contatos.Domain
 {
     [Table("Users")]
     public class User
@@ -27,6 +27,11 @@ namespace agenda_de_contatos.Models
         [ForeignKey("Address")]
         public int AddressId { get; set; }
 
-        public Address Address { get; set; }
+        public virtual Address Address { get; set; }
+
+        [ForeignKey("Contact")]
+        public int ContactId { get; set; }
+
+        public virtual Contact Contact { get; set; }
     }
 }

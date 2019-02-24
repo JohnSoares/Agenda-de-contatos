@@ -7,8 +7,9 @@ namespace agenda_de_contatos.Data
     {
         public ContactScheduleDbContext() : base("Name-ContactSchedule")
         {
-            Database.SetInitializer<ContactScheduleDbContext>(new CreateDatabaseIfNotExists<ContactScheduleDbContext>());
-            Database.Initialize(false);
+            Database.CreateIfNotExists();
+            //Database.SetInitializer<ContactScheduleDbContext>(new CreateDatabaseIfNotExists<ContactScheduleDbContext>());
+            //Database.Initialize(false);
         }
 
         public DbSet<Contact> Contacts { get; set; }

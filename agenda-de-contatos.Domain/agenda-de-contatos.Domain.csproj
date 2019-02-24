@@ -46,6 +46,7 @@
     <Compile Include="Contact.cs" />
     <Compile Include="ContactTelephone.cs" />
     <Compile Include="Enums\TypeAddress.cs" />
+    <Compile Include="Enums\TypeContact.cs" />
     <Compile Include="Enums\TypeContactTelephone.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User.cs" />

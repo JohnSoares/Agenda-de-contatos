@@ -14,10 +14,12 @@ namespace agenda_de_contatos.Domain
         public int Id { get; set; }
         
         [Required]
+        [Display(Name = "Número de Telefone")]
         [MaxLength(25)]
         public string NumberTelephone { get; set; }
 
         [Required]
+        [Display(Name = "Tipo de telefone")]
         public List<TypeContactTelephone> TypeContactTelephone { get; set; }
 
         [Required]

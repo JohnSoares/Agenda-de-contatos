@@ -231,6 +231,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Enums\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -240,6 +242,16 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\index.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\agenda-de-contatos.Data\agenda-de-contatos.Data.csproj">
+      <Project>{bbaea90a-368d-4406-80d1-1bcb3276f20c}</Project>
+      <Name>agenda-de-contatos.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\agenda-de-contatos.Domain\agenda-de-contatos.Domain.csproj">
+      <Project>{d7e2136a-b606-410d-9184-362b14ab877d}</Project>
+      <Name>agenda-de-contatos.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
